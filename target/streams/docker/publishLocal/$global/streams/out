@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t play-scala-seed:1.0-SNAPSHOT .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/ryuk/Documents/webapps/weather-web/target/docker/stage[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  39.72MB[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 1/9 : FROM openjdk:latest[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> db77212ffe05[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 2/9 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 1e56de1969cc[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 3/9 : ADD --chown=daemon:daemon opt /opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 2b151bc4a188[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/9 : USER daemon[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> cd1bdcc7f056[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/9 : ENTRYPOINT ["bin/play-scala-seed"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 5dd127ffcd26[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 6/9 : CMD [][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> d8d91317e9f4[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 7/9 : EXPOSE 9000[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 35a70c81a55a[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 8/9 : EXPOSE 9443[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 341a05744392[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 9/9 : ENV PLAY_SECRET=]<tm21RMDXj2@59@nnnR=<4RiWE^AoQo?yYpnrMSbW7WPfokVBQ>RUuCTAnQ:T:i[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 110813b0d487[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 110813b0d487[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 785937775849[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 785937775849[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged play-scala-seed:1.0-SNAPSHOT[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image play-scala-seed:1.0-SNAPSHOT[0m

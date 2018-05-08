@@ -1,0 +1,84 @@
+@font-face {
+    font-family: pt-sans-regular;
+    src: url(../PT_Sans/PT_Sans-Web-Regular.ttf);
+}
+
+
+body {
+  font-family: 'pt-sans-regular' !important;
+}
+
+h1, h2, h3, h4 {
+}
+
+a {
+  color: blue;
+}
+
+p {
+  line-height: 24px;
+}
+
+
+.background {
+  background-color: white;
+  background-image: url(../images/subtle_white_mini_waves.png);
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+
+  padding: 30px;
+}
+
+.black-box {
+  background-color: rgba(255, 255, 255, 0.75);
+  display: block;
+  margin: auto;
+  width: 1024px;
+  padding: 20px;
+  color: black;
+  border-radius: 5px;
+
+  @media (max-width: 1024px) {
+    width: auto;
+  }
+}
+
+.main-box {
+  min-height: 750px;
+}
+
+.centered-inline {
+  text-align: center;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  vertical-align: bottom;
+}
+
+.space, space {
+  display: block;
+  height: 20px;
+}
+
+
+.green-text {
+  color: green;
+}
+.lime-green-text {
+  color: lime;
+}
+.orange-text {
+  color: orange;
+}
+.dark-orange-text {
+  color: orangered;
+}
+.red-text {
+  color: red;
+}
+.purple-text {
+  color: purple;
+}
