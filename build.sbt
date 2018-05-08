@@ -17,7 +17,6 @@ libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2
 // play.sbt.routes.RoutesKeys.routesImport += "com.example.binders._"
 
 
-
 enablePlugins(JavaAppPackaging)
 enablePlugins(JavaServerAppPackaging)
 enablePlugins(DockerPlugin)
