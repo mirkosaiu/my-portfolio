@@ -50,9 +50,9 @@ const App = () => {
         <space/>
 
 
-        <div className="black-box">
+        {/* <div className="black-box">
           <Footer/>
-        </div>
+        </div> */}
       </div>
     </div>
   )

@@ -4,7 +4,7 @@
 		module="my-portfolio$sources"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180508185943"
+		publication="20180508193124"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
