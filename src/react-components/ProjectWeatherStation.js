@@ -15,7 +15,7 @@ const ProjectWeatherStation = () => {
         In general the project is about a device (the weather station) power supplied by a solar panel.<br/>
         The station has sensors and a WiFi module. With the sensors it measures temperature, humidity, pressure, gas and luminosity. And with the WiFi module it sends the data online.<br/>
         In particular the idea is to send the data to the online application that I made and deployed to AWS, where they are stored on the database.<br/>
-        These data is consultable through the website which is actually reachable at <a href="http://wwloadbalancer-658838192.us-west-2.elb.amazonaws.com" target="_blank">this address</a>. (If the data doesn’t update it’s because I’m doing some maintenance on the device)
+        These data is consultable through the website which is actually reachable at <a href="http://wwloadbalancer-658838192.us-west-2.elb.amazonaws.com" target="_blank">this address</a> (when I’m doing maintenance on the device the data stops updating).
       </p>
 
       <space/>
